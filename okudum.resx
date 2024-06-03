@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>KVKK Metnini Okudum Onaylıyorum.
+US-GRUP ŞİRKETİ
+
+KİŞİSEL VERİLERİN KORUNMASI VE İŞLENMESİ
+
+AYDINLATMA METNİ
+
+(“Aydınlatma Metni”)
+
+ 
+
+a) Veri Sorumlusu ve Temsilcisi
+ 
+
+6698 sayılı Kişisel Verilerin Korunması Kanunu (“Kanun”) uyarınca, kişisel verileri işlenen kimliği belirli veya belirlenebilir gerçek kişiye dair her türlü kişisel veri işleme faaliyeti Kanun kapsamında değerlendirilmektedir. Bu doğrultuda kişisel verileriniz veri sorumlusu sıfatıyla US-GRUP Lojistik Taşımacılık, Paketleme, Temizlik Hizmetleri Sanayi ve Ticaret .LTD.ŞTİ.’nin Şirketi tarafından aşağıda açıklanan kapsamda toplanacak, saklanacak ve işlenecektir. İşbu Aydınlatma Metni, Kanun’un “Veri Sorumlusunun Aydınlatma Yükümlülüğü” başlıklı 10. maddesi uyarınca hazırlanmıştır.
+
+ 
+
+b) Kişisel Verilerin Hangi Amaçla İşleneceği
+ 
+
+Şirketimiz ’de 4857 sayılı İş Kanunu kapsamında şirketimize yaptığınız iş başvurusu ve iş sözleşmesi çerçevesinde çalışmanız sebebiyle ya da Şirketimiz ile herhangi bir sebeple çeşitli mecralar aracılığıyla yazılı yahut sair yollarla paylaştığınız, gerek Şirketimizin ilgili departmanları tarafından resen ve/veya talep üzerine tatbik edilen, gerekse mevzuattan kaynaklanan sair denetim, soruşturma, araştırma, inceleme gibi eylem ve işlemler esnasında ve/veya neticesinde elde edilen, özel nitelikli kişisel verileriniz de dâhil olmak üzere kişisel verileriniz, 4857 sayılı İş Kanunu ve ilgili diğer mevzuat uyarınca işçi-işveren ilişkisi gereği ve hizmet akdinin ifa edilebilmesi, acil durum yönetimi süreçlerinin planlanması ve icrası, çalışanların performans değerlendirme süreçlerinin planlanması ve takibi, iş faaliyetlerinin planlanması ve icrası, kurumsal ilişkiler ve iletişim faaliyetlerinin planlanması ve icrası, bilgi güvenliği süreçlerinin planlanması, yetenek - kariyer gelişimi faaliyetlerinin planlanması ve icrası, verilerin doğru ve güncel olmasının sağlanması, iş sürekliğinin sağlanması faaliyetlerinin planlanması ve/veya icrası, şirket denetim faaliyetlerinin planlanması ve icrası, çalışanlar için grup sağlık sigortası ve bireysel emeklilik dahil yan haklar ve menfaatlerin planlanması ve icrası, kurumsal sürdürülebilirlik faaliyetlerin planlanması ve icrası, şirket içi atama-terfi ve işten ayrılma süreçlerinin planlanması ve icrası, çalışanlara yönelik kurumsal iletişim ve/veya çalışanların katılım sağladığı kurumsal sosyal sorumluluk ve/veya sivil toplum kuruluşları faaliyetlerinin planlanması ve/veya icrası, ücret yönetimi, iş faaliyetlerinin etkinlik/verimlilik ve/veya yerindelik analizlerinin gerçekleştirilmesi faaliyetlerinin planlanması ve/veya icrası, iş sağlığı ve/veya güvenliği süreçlerinin planlanması ve/veya icrası, kurumsal yönetim faaliyetlerin planlanması ve icrası, personel çıkış işlemlerinin planlanması ve icrası, personel temin süreçlerinin yürütülmesi, stratejik planlama faaliyetlerinin icrası, şirket dışı eğitim faaliyetlerinin planlanması ve icrası, şirket içi eğitim faaliyetlerinin planlanması ve/veya icrası ve şirket içi oryantasyon aktivitelerinin planlanması ve icrası, hizmet verdiğimiz 3. Kişi veya şirketlere bilgi ve belge sağlanması ile çalışma süreçlerinin planlanması ve icrası, çalışma sürelerinin hesaplanabilmesi ve 3. Kişilere de bu konuda bilgi verilebilmesi  amaçları kapsamında;</value>
+  </data>
+</root>

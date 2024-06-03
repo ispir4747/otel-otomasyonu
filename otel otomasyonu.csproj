@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1AD1B6C3-3918-406D-8268-E648C14FAE17}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>otel_otomasyonu</RootNamespace>
+    <AssemblyName>otel otomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="data.Designer.cs">
+      <DependentUpon>data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="geribildirim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="geribildirim.Designer.cs">
+      <DependentUpon>geribildirim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kayitsilme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kayitsilme.Designer.cs">
+      <DependentUpon>kayitsilme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kayıtlımüş.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kayıtlımüş.Designer.cs">
+      <DependentUpon>kayıtlımüş.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kytmüşgirişi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kytmüşgirişi.Designer.cs">
+      <DependentUpon>kytmüşgirişi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mesaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mesaj.Designer.cs">
+      <DependentUpon>mesaj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda durumu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda durumu.Designer.cs">
+      <DependentUpon>oda durumu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="okudum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="okudum.Designer.cs">
+      <DependentUpon>okudum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sifregünceleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sifregünceleme.Designer.cs">
+      <DependentUpon>sifregünceleme.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data.resx">
+      <DependentUpon>data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="geribildirim.resx">
+      <DependentUpon>geribildirim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kayitsilme.resx">
+      <DependentUpon>kayitsilme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kayıtlımüş.resx">
+      <DependentUpon>kayıtlımüş.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kytmüşgirişi.resx">
+      <DependentUpon>kytmüşgirişi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mesaj.resx">
+      <DependentUpon>mesaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda durumu.resx">
+      <DependentUpon>oda durumu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="okudum.resx">
+      <DependentUpon>okudum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="sifregünceleme.resx">
+      <DependentUpon>sifregünceleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
